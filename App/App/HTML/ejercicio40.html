@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ejercicio40</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <form action="registrardatos.php" method="post">
+    Apellido y nombre:
+    <input type="text" name="nombre" size="30"><br><br>
+    Correo electrónico:
+    <input type="email" name="mail" size="30"><br><br>
+
+    País de origen:
+    <select name="Pais">
+      <option value="" selected>Seleccione país</option>
+      <option value="Argentina">Argentina</option>
+      <option value="Brasil">Brasil</option>
+      <option value="Chile">Chile</option>
+      <option value="Colombia">Colombia</option>
+      <option value="Mexico">México</option>
+      <option value="Peru">Perú</option>
+      <option value="Uruguay">Uruguay</option>
+      <option value="Venezuela">Venezuela</option>
+      
+    </select><br><br>
+
+    Valoración del sitio:
+    <select name="Valoracion">
+      <option value="Malo">Malo</option>
+      <option value="Regular">Regular</option>
+      <option value="Bueno" selected>Bueno</option>
+      <option value="Muy bueno">Muy bueno</option>
+      <option value="Excelente">Excelente</option>
+    </select><br><br>
+
+    Comentarios:<br>
+    <textarea name="comentarios" rows="5" cols="40">Ingrese aquí sus comentarios</textarea><br><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
